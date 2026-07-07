@@ -1,0 +1,115 @@
+/** Amber & Charcoal design system — HostelConnect */
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: "class",
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        "on-tertiary-fixed": "#001e2f",
+        "tertiary-container": "#62c0ff",
+        "on-background": "#e3e2e7",
+        // Page canvas / deepest background (user request)
+        background: "#090909",
+        // Hover / higher surface
+        "surface-container-high": "#191919",
+        // Border
+        "outline-variant": "#2A2B30",
+        "surface-dim": "#0d1117",
+        secondary: "#c6c6cc",
+        "primary-fixed-dim": "#ffd500",
+        // Highest surface
+        "surface-container-highest": "#1f1f1f",
+        "on-tertiary": "#00344e",
+        // Brighter surface tone
+        "surface-bright": "#141414",
+        "tertiary-fixed": "#cae6ff",
+        "on-secondary-fixed-variant": "#46464c",
+        "on-error": "#690005",
+        "on-secondary-fixed": "#1a1b20",
+        "secondary-container": "#46464c",
+        "surface-container-lowest": "#0a0d15",
+        "on-primary-container": "#664000",
+        tertiary: "#a9d9ff",
+        "secondary-fixed-dim": "#c6c6cc",
+        "on-primary-fixed-variant": "#633f00",
+        "error-container": "#93000a",
+        // primary container uses gold accent
+        "primary-container": "#f7c600",
+        error: "#ffb4ab",
+        // keep this name for compatibility
+        "surface-variant": "#343439",
+        "tertiary-fixed-dim": "#8ccdff",
+        "on-secondary": "#2f3035",
+        "on-error-container": "#ffdad6",
+        "on-surface": "#f5f5f5",
+        "inverse-primary": "#835400",
+        "surface-tint": "#ffd500",
+        "secondary-fixed": "#e3e2e8",
+        "on-secondary-container": "#b5b4bb",
+        "on-primary": "#000000",
+        outline: "#9e8e7c",
+        "inverse-on-surface": "#2f3034",
+        "on-primary-fixed": "#1a1000",
+        // Surface container low and base surface (cards) per request
+        "surface-container-low": "#111111",
+        surface: "#111111",
+        "on-tertiary-container": "#004d72",
+        // main surface container
+        "surface-container": "#111111",
+        "inverse-surface": "#e3e2e7",
+        "on-tertiary-fixed-variant": "#004b6f",
+        // primary color updated to strong gold accent
+        primary: "#ffd500",
+        "on-surface-variant": "#a8a29e",
+        "primary-fixed": "#ffddb5",
+        success: "#4ADE80",
+        warning: "#FBBF24",
+        danger: "#F87171",
+        info: "#60A5FA",
+      },
+      borderRadius: {
+        DEFAULT: "0.5rem",
+        sm: "0.25rem",
+        md: "0.75rem",
+        lg: "1rem",
+        xl: "1.5rem",
+        full: "9999px",
+      },
+      spacing: {
+        "container-margin": "24px",
+        "unit-lg": "24px",
+        "sidebar-width": "240px",
+        "unit-xs": "4px",
+        "unit-md": "16px",
+        "unit-xl": "32px",
+        gutter: "16px",
+        "unit-sm": "8px",
+      },
+      fontFamily: {
+        eyebrow: ["Inter", "sans-serif"],
+        "headline-md": ["Manrope", "sans-serif"],
+        "label-md": ["Inter", "sans-serif"],
+        "headline-sm": ["Manrope", "sans-serif"],
+        "headline-lg": ["Manrope", "sans-serif"],
+        "body-md": ["Inter", "sans-serif"],
+        "body-lg": ["Inter", "sans-serif"],
+        "label-sm": ["Inter", "sans-serif"],
+      },
+      fontSize: {
+        eyebrow: ["12px", { lineHeight: "16px", letterSpacing: "0.1em", fontWeight: "700" }],
+        "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700" }],
+        "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "600" }],
+        "headline-sm": ["20px", { lineHeight: "28px", letterSpacing: "0", fontWeight: "600" }],
+        "body-lg": ["16px", { lineHeight: "24px", letterSpacing: "0", fontWeight: "400" }],
+        "body-md": ["14px", { lineHeight: "20px", letterSpacing: "0", fontWeight: "400" }],
+        "label-md": ["14px", { lineHeight: "20px", letterSpacing: "0", fontWeight: "500" }],
+        "label-sm": ["12px", { lineHeight: "16px", letterSpacing: "0", fontWeight: "500" }],
+      },
+    },
+  },
+  plugins: [],
+};
