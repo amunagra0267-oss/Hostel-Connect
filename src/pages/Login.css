@@ -1,0 +1,92 @@
+.login-page{
+    width:100%;
+    height:100vh;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../assets/hostel.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+
+.overlay{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+.content{
+    width:600px;
+    margin-left:70px;
+    color:white;
+}
+
+.logo h2{
+    font-size:38px;
+    margin:0;
+}
+
+.logo span{
+    color:#f7a51b;
+    font-weight:600;
+}
+
+.hero{
+    margin-top:90px;
+}
+
+.hero h1{
+    font-size:72px;
+    font-weight:800;
+    line-height:1.1;
+}
+
+.hero h1 span{
+    color:#f7a51b;
+}
+
+.hero p{
+    width:520px;
+    font-size:20px;
+    line-height:1.8;
+    color:#dddddd;
+    margin-top:25px;
+}
+
+.role-grid{
+    margin-top:70px;
+
+    display:grid;
+    grid-template-columns:repeat(2,220px);
+    gap:22px;
+}
+
+.role-grid button{
+    height:65px;
+    border:none;
+    border-radius:15px;
+
+    background:#f7a51b;
+    color:black;
+
+    font-size:20px;
+    font-weight:700;
+
+    cursor:pointer;
+    transition:.3s;
+}
+
+.role-grid button:hover{
+    transform:translateY(-5px);
+    background:white;
+}
+
+.admin{
+    grid-column:1/3;
+}

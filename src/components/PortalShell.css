@@ -1,0 +1,69 @@
+.portal-shell {
+  min-height: 100vh;
+  background: var(--bg-black);
+}
+
+.portal-shell__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-bottom: 1px solid var(--border-subtle);
+  background: var(--bg-panel);
+}
+
+.portal-shell__eyebrow {
+  margin: 0 0 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.portal-shell__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.portal-shell__logout {
+  padding: 9px 18px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.portal-shell__logout:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.portal-shell__content {
+  padding: 40px;
+}
+
+.portal-placeholder {
+  max-width: 560px;
+  padding: 28px;
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--border-hover);
+  background: var(--bg-panel);
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.portal-placeholder code {
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
