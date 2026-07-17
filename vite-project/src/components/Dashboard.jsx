@@ -12,6 +12,7 @@ const INITIAL_SYSTEM_TICKETS = [
 ];
 
 const ADMIN_MASTER_ATTENDANCE_DB = [
+  { date: '2026-07-04', status: 'Present', checkIn: '08:30 AM', verifiedBy: 'Admin (Warden Wing-A)' },
   { date: '2026-07-03', status: 'Present', checkIn: '08:30 AM', verifiedBy: 'Admin (Warden Wing-A)' },
   { date: '2026-07-02', status: 'Absent', checkIn: '08:45 AM', verifiedBy: 'System Auto-Absence Flag' },
   { date: '2026-07-01', status: 'Present', checkIn: '08:22 AM', verifiedBy: 'Admin (Warden Wing-A)' },
